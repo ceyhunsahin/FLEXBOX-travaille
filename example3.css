@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: #1F222C;
+  width: 500px;
+  height: 500px;
+  padding: 30px;
+}
+
+.container .card {
+  margin: 10px;
+  position: relative;
+  width: calc(50% - 20px);
+  border-radius: 10px;
+  background-color: #474C5A;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #85E6FA;
+}
+
+.container .card .icon {
+  margin-bottom: 10px;
+  width: 50px;
+  height: 50px;
+  background-color: currentColor;
+}
+
+.container .card .check {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: white;
+}
+/*# sourceMappingURL=example3.css.map */
